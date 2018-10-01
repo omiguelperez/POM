@@ -3,7 +3,7 @@ using SeleniumExtras.PageObjects;
 using SeleniumExtras.WaitHelpers;
 using System;
 
-namespace POM.FacebookExample.PageObjects
+namespace POM.Example.PageObjects
 {
     public class AboutPage 
     {

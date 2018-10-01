@@ -1,14 +1,14 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using POM.FacebookExample.PageObjects;
+using POM.Example.PageObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
  
-namespace POM.FacebookExample.Tests
+namespace POM.Example.Tests
 {
     public class TestClass
     {
@@ -17,10 +17,8 @@ namespace POM.FacebookExample.Tests
         [SetUp]
         public void Setup()
         {
-            System.setProperty("webdriver.chrome.driver", @"./chromedriver");
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments("--whitelisted-ips=''");
-            driver = new ChromeDriver(chromeOptions);
+            string chromeDriverPath =  @".";
+            driver = new ChromeDriver(chromeDriverPath);
             driver.Manage().Window.Maximize();
         }
 

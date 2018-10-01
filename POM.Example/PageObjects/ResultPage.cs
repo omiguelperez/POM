@@ -1,7 +1,7 @@
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 
-namespace POM.FacebookExample.PageObjects
+namespace POM.Example.PageObjects
 {
     public class ResultPage
     {

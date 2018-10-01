@@ -2,7 +2,7 @@
 using SeleniumExtras.PageObjects;
 using System;
 
-namespace POM.FacebookExample.PageObjects
+namespace POM.Example.PageObjects
 {
     public class HomePage
     {
